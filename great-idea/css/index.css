@@ -220,3 +220,69 @@ footer .footer-content{
 	font-size:14px;
 	text-align:center;
 }
+
+.services-intro-section{
+	display:flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items:center;
+	height: 400px;
+	border-bottom: 1px solid black;
+	width:100%
+}
+
+
+.services-intro-section div{
+	width:100%;
+	margin:20px 20px;
+}
+
+.services-mid-section{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:space-between;
+	padding-top:30px;
+	padding-bottom:10px;
+	margin-bottom:10px;
+}
+
+.services-mid-section div {
+	width:400px;
+	padding:20px;
+	border:1px solid black;
+	margin-right:20px;
+	margin-bottom:20px;
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content:space-between;
+	align-items:flex-start;
+	height:219px;
+	background-color: whitesmoke;
+}
+
+.services-mid-section div p {
+	margin:5px;
+	width:314px
+}
+
+.services-mid-section div h2 {
+	margin:5px
+}
+.services-mid-section div button{
+	margin:5px;
+	padding: 8px 30px;
+	text-shadow: none;
+	border:1px solid black;
+	border-radius:5px;
+	text-align:center;
+}
+
+.services-bottom{
+	display:flex;
+	flex-flow:row wrap;
+	width:100%;
+}
+
+.services-bottom div{
+	width:50%;
+}
