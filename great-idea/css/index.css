@@ -277,7 +277,7 @@ footer .footer-content{
 	flex-flow: column nowrap;
 	justify-content:space-between;
 	align-items:flex-start;
-	height:219px;
+	height:230px;
 	background-color: whitesmoke;
 }
 
@@ -291,12 +291,16 @@ footer .footer-content{
 	margin:5px 0px;
 }
 .services-mid-section div button{
-	margin:5px 0px;
-	padding: 8px 30px;
+	
 	text-shadow: none;
 	border:1px solid black;
 	border-radius:5px;
 	text-align:center;
+	width:140px;
+	height:50px;
+	margin: 5px 0px;
+	font-size:11px;
+ 
 }
 
 .services-bottom{
