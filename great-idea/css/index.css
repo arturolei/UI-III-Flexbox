@@ -221,20 +221,39 @@ footer .footer-content{
 	text-align:center;
 }
 
+/*CSS for the services.html*/
+
+.services-container{
+	width:880px;
+	margin:auto;
+}
+
+.services-container header nav a{
+	margin-left:0px;
+}
+
+.services-container .logo{
+	margin-right:0px;
+}
+
 .services-intro-section{
 	display:flex;
 	flex-flow: column wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items:center;
-	height: 400px;
+	height: 380px;
 	border-bottom: 1px solid black;
-	width:100%
+	width:100%;
 }
 
 
 .services-intro-section div{
 	width:100%;
-	margin:20px 20px;
+	margin:15px 0px;
+}
+
+.services-intro-section div h1{
+	font-size:28px;
 }
 
 .services-mid-section{
@@ -243,14 +262,16 @@ footer .footer-content{
 	justify-content:space-between;
 	padding-top:30px;
 	padding-bottom:10px;
-	margin-bottom:10px;
+	margin-bottom:32px;
+	width:100%;
+	border-bottom:2px solid black;
 }
 
 .services-mid-section div {
-	width:400px;
+	width:420px;
 	padding:20px;
 	border:1px solid black;
-	margin-right:20px;
+	margin-right:0px;
 	margin-bottom:20px;
 	display:flex;
 	flex-flow: column nowrap;
@@ -261,15 +282,16 @@ footer .footer-content{
 }
 
 .services-mid-section div p {
-	margin:5px;
-	width:314px
+	margin:10px 0px;
+	width:99%;
+	font-size:16px;
 }
 
 .services-mid-section div h2 {
-	margin:5px
+	margin:5px 0px;
 }
 .services-mid-section div button{
-	margin:5px;
+	margin:5px 0px;
 	padding: 8px 30px;
 	text-shadow: none;
 	border:1px solid black;
@@ -281,8 +303,31 @@ footer .footer-content{
 	display:flex;
 	flex-flow:row wrap;
 	width:100%;
+	align-items:flex-start;
+	justify-content:space-between;
+	margin-bottom:30px
 }
 
 .services-bottom div{
 	width:50%;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+}
+
+
+
+.services-bottom div p{
+	width: 91%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.services-bottom div ul{
+	list-style-type:square;
+	margin-left:5%;
+}
+
+.services-bottom div ul li{
+	margin:16px 0px;
 }
